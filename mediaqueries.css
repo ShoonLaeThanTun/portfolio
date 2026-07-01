@@ -100,4 +100,27 @@
     .text-container {
       text-align: justify;
     }
+   .certificate-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.certificate-item img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.certificate-item h3 {
+    font-size: 1.2rem;
+}
+
+.certificate-item a {
+    font-size: 0.9rem;
+}
+
+#certificates {
+    height: auto;
+}
+
   }
